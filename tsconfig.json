@@ -12,6 +12,9 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "strictBindCallApply": true,
+    "paths": {
+      "chai-shape": ["src"],
+    },
   },
   "include": [
     "src",

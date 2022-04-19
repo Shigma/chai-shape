@@ -1,6 +1,5 @@
 import shape from 'chai-shape'
 import { expect, use } from 'chai'
-import { Random } from 'koishi'
 
 use(shape)
 
@@ -11,7 +10,7 @@ describe('Chai Extensions', () => {
     expect(true).to.have.shape(true)
     expect('foo').to.have.shape('foo')
 
-    const random = Random.int(1 << 20)
+    const random = Math.floor(Math.random() * 1 << 20)
     expect(new Date(random)).to.have.shape(new Date(random))
     expect({ a: 1, b: 2 }).to.have.shape({ a: 1 })
     expect([1, 2]).to.have.shape([1])
