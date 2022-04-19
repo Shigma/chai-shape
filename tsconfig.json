@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "outDir": "lib",
     "rootDir": "src",
     "target": "es2020",
@@ -12,9 +13,6 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "strictBindCallApply": true,
-    "paths": {
-      "chai-shape": ["src"],
-    },
   },
   "include": [
     "src",

@@ -1,4 +1,6 @@
-import shape from 'chai-shape'
+/// <reference types=".." />
+
+import shape from '../src'
 import { expect, use } from 'chai'
 
 use(shape)
