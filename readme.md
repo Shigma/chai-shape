@@ -1,6 +1,6 @@
 # chai-shape
 
-[![Codecov](https://img.shields.io/codecov/c/github/cosmotype/chai-shape?style=flat-square)](https://codecov.io/gh/cosmotype/chai-shape)
+[![Codecov](https://img.shields.io/codecov/c/github/shigma/chai-shape?style=flat-square)](https://codecov.io/gh/shigma/chai-shape)
 [![npm](https://img.shields.io/npm/v/chai-shape?style=flat-square)](https://www.npmjs.com/package/chai-shape)
 
 Extend chai with shape assertions.
